@@ -32,7 +32,7 @@ function getDay(day) {
     return `${weekday}`;
 }
 function getInfo(day){
-    let weatherDes = day.weather.description
+    let weatherDes = day.weather.description;
     let indexImage = rainIcons.findIndex(icon => weatherDes.toLowerCase().includes(icon));
     if (indexImage===-1) indexImage=3
     return [weatherDes,indexImage]
