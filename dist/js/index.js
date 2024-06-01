@@ -33,7 +33,7 @@ function getDay(day) {
 }
 function getInfo(day){
     let weatherDes = day.weather.description;
-    let indexImage = rainIcons.findIndex(icon => weatherDes.toLowerCase().includes(icon));
+    let indexImage = rainIcons.findIndex(icon => weatherDes.toLowerCase().includes(icon))
     if (indexImage===-1) indexImage=3
     return [weatherDes,indexImage]
 }
