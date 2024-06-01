@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Application</title>
+</head>
+
+<body>
+<div id="body" >
+    <nav class="p-2">
+        <div class="container-fluid row align-items-center align-content-center justify-content-evenly">
+            <h1 class="col-8">WEATHER APPLICATION</h1>
+            <a id="bg-change" class="col-1 text-center text-decoration-none"> <i class="fa-regular fa-image"></i> Next </a>
+
+        </div>
+
+
+    </nav>
+
+    <div class="container-fluid row justify-content-evenly my-3">
+        <div class="col-8 my-5 box px-5 py-3">
+            <form class="row justify-content-center">
+                <div class=" col-10 col-lg-8 form-outline" data-mdb-input-init>
+                    <input type="search" id="form1" class="form-control" placeholder="location"/>
+                </div>
+                <button id="search" type="button" class=" col-2 col-lg-1 btn btn-primary" data-mdb-ripple-init>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+<!--        first day data-->
+        <div id="first-day" class="col-12 row align-items-center col-md-5 p-3 box">
+
+        </div>
+<!--        other days data-->
+        <div class="col-12 col-md-5 my-5 ">
+            <div class="row" id="other-days">
+
+            </div>
+
+        </div>
+    </div>
+    <footer class=" mt-5 text-center p-2">
+        <p>Made by Zeeshan Mehmood</p>
+    </footer>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>

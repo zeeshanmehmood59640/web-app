@@ -1,0 +1,40 @@
+@import "reset";
+#body{
+  background-image:url("../images/bg/bg1.jpg") ;
+  background-size: cover;
+  background-position: center;
+}
+.box{
+  background-color: rgba(94, 93, 93, 0.7);
+  border-radius: 20px;
+}
+h1{
+  font-family: $font-family-headers;
+
+}
+h1,p{
+  color: $white;
+  text-shadow: 0 0 3px #000;
+}
+h2,h3,h4,h5,h6,a{
+  color: $yellow;
+  text-shadow: 0 0 3px #000;
+}
+.blue{
+  background-color:$blue;
+}
+.green{
+  background-color: $green;
+}
+footer,nav{
+  background-color: rgba(46, 46, 46, 0.7);
+}
+i{
+  font-size: 16px;
+  color: $yellow;
+}
+a{
+  &:focus,&:hover{
+    cursor: pointer;
+  }
+}
