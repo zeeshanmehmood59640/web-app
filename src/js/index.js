@@ -119,7 +119,7 @@ function getApiData(city){
         .catch((error) => console.error(error.message));
 }
 
-getApiData("London");
+getApiData("brussels");
 searchBtn.addEventListener('click', () => {
   let  searchText = document.getElementById("form1").value;
     console.log(searchText)
