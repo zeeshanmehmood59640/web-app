@@ -133,3 +133,9 @@ bgChange.addEventListener('click', ev => {
     body.style.backgroundImage = `url('../images/bg/${bgimages[counter]}.jpg')`
     console.log("pic changed")
 })
+setInterval(counter=>{
+    counter++;
+    if (counter > 3)
+        counter = 0;
+    body.style.backgroundImage = `url('../images/bg/${bgimages[counter]}.jpg')`
+},50000)
