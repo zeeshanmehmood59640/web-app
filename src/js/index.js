@@ -138,4 +138,4 @@ setInterval(()=>{
     if (counter > 3)
         counter = 0;
     body.style.backgroundImage = `url('../images/bg/${bgimages[counter]}.jpg')`
-},50000)
+},9000)
