@@ -1,11 +1,11 @@
-const apiKey = "d8f501a3e4cd48ee8649518a4dc9a58a";
+const apiKey = "96bdd3cd71414b6fadd0422cb3034a6b";
 const body = document.getElementById("body");
 const bgChange = document.getElementById("bg-change");
 const bgimages = ['bg1', 'bg2', 'bg3', 'bg4']
 const otherDays=document.getElementById('other-days');
 const searchBtn = document.getElementById("search");
 const firstDay = document.getElementById("first-day");
-const rainIcons = ['clear', 'cloud', 'cold', 'misc', 'rain', 'snow', 'thunderstorm', 'wind']
+const rainIcons = ['clear','cloud','cold', 'misc', 'rain', 'snow', 'thunderstorm', 'wind']
 
 let counter = 0;
 
